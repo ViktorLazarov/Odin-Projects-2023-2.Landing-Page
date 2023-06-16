@@ -3,6 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: red;
+.header {
+    padding: 10px 20px;
+}
+.header-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-logo img {
+    height:30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+li {
+    color: white;
+}
+.header-link {
+    display: flex;
+    
+}
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
 }
