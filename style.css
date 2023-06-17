@@ -157,3 +157,26 @@ a:visited {
     font-weight: bold;
     align-self: flex-end;
 }
+/* Sign Up Section */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.sign-up-container {
+    background-color: #3882F6;
+    display: flex;
+    padding: 30px 50px;
+    border-radius: 5px;
+    gap: 20px;
+    color: white;
+}
+.sign-up-container button {
+    border: 1px solid white;
+    margin-top: 15px;
+}
+.text p:nth-child(1) {
+    font-size: 21px;
+    font-weight: bold;
+}
