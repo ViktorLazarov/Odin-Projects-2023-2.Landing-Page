@@ -180,3 +180,14 @@ a:visited {
     font-size: 21px;
     font-weight: bold;
 }
+/* Footer Section */
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+footer p {
+    font-weight: 400;
+}
